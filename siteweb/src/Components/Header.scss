@@ -3,21 +3,18 @@
         display: flex;
         justify-content: space-between;
         padding: 1rem;
-
-        &__logo {
-            font-size: 20px;
-            font-weight: bold;
-        }
     }
-
-    &__content {
+    &__logo {
         width: 100%;
+        max-width: 177px;
+        max-height: 41px;
     }
 }
 
 .nav {
     &__content{
-        display: block;
-        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        gap: 20px;
     }
 }

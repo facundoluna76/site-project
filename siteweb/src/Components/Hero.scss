@@ -1,0 +1,19 @@
+.hero {
+    height: 90vh;
+    display: block;
+
+    &__cont {
+        display: flex;
+        justify-content: flex-end;
+        min-height: 90vh;
+        height: auto;
+        flex-direction: column;
+        padding: 120px 40px 50px;
+
+        &__image {
+            display: flex;
+            justify-content: flex-end;
+        }
+          
+    }
+}

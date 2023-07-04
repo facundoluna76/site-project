@@ -1,15 +1,22 @@
 import React from 'react';
 import './Header.scss';
 
+const logo = './src/assets/bracketmedia.svg';
+
 const Header = () => {
   return (
     <header className='header'>
         <div className="header__cont">
-            <div className="header__content">
-                <h1 className='header__cont__logo'>Bracketmedia</h1>
-            </div>
+            <a href="#" className="header__logo">
+                <img src={logo}/>
+            </a>
             <nav className="nav__content">
-                <div>Nav</div>
+                <a href="#">About us</a>
+                <a href="#">Services</a>
+                <a href="#">Who we are</a>
+                <a href="#">Our work</a>
+                <a href="#">Blog</a>
+                <a href="#">Talk to us</a>
             </nav>
         </div>
     </header>
