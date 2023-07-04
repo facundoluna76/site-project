@@ -1,14 +1,17 @@
-import React from 'react'
+import React from 'react';
+import './Header.scss';
 
 const Header = () => {
   return (
-    <header className='flex items-center w-full p-4'>
-        <div className="logo">
-            <h1 className=''>Bracketmedia</h1>
+    <header className='header'>
+        <div className="header__cont">
+            <div className="header__content">
+                <h1 className='header__cont__logo'>Bracketmedia</h1>
+            </div>
+            <nav className="nav__content">
+                <div>Nav</div>
+            </nav>
         </div>
-        <nav className="bg-red-600 flex-1">
-        <div>Nav</div>
-        </nav>
     </header>
   )
 }

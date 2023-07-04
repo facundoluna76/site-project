@@ -1,5 +1,23 @@
-.logo {
-            font-size: 100px;
-        font-weight: bold;
+.header {
+    &__cont{
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
 
+        &__logo {
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+
+    &__content {
+        width: 100%;
+    }
+}
+
+.nav {
+    &__content{
+        display: block;
+        width: 100%;
+    }
 }
