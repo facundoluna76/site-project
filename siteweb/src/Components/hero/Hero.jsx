@@ -1,6 +1,6 @@
 import React from 'react'
-import './Hero.scss';
-import images from '../assets/images'
+import '../hero/Hero.scss';
+import images from '../../assets/images'
 
 const Hero = () => {
   return (

@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
-import './Header.scss';
+import '../header/header.scss';
+import images from '../../assets/images'
 import { RiMenuFill, RiCloseLine } from "react-icons/ri";
-import images from '../assets/images'
+
 
 const Header = () => {
   const [showmenu, setShowMenu] = useState(false);
