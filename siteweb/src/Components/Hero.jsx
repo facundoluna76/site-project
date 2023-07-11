@@ -1,18 +1,16 @@
 import React from 'react'
 import './Hero.scss';
-
-const logo_hero = './src/assets/an-agency-for-agencies.svg';
-const hero_arrow = './src/assets/arrow.svg';
+import images from '../assets/images'
 
 const Hero = () => {
   return (
     <section className='hero'>
         <div className="hero__cont">
             <div className="hero__cont__image">
-                <img src={logo_hero}/>
+                <img src={images.anagencyforagencies}/>
             </div>
             <button className="hero__arrow">
-                <img src={hero_arrow}/>
+                <img src={images.arrow}/>
             </button>
         </div>
     </section>

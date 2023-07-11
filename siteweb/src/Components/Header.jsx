@@ -1,8 +1,7 @@
 import React, {useState} from 'react';
 import './Header.scss';
 import { RiMenuFill, RiCloseLine } from "react-icons/ri";
-
-const logo = './src/assets/bracketmedia.svg';
+import images from '../assets/images'
 
 const Header = () => {
   const [showmenu, setShowMenu] = useState(false);
@@ -10,7 +9,7 @@ const Header = () => {
     <header className='header'>
         <div className="header__cont">
             <a href="#" className="header__logo">
-                <img src={logo}/>
+                <img src={images.bracketmedia}/>
             </a>
             <nav className={`${showmenu ? "left-0" : "-left-full"} nav__content`}>
                 <button onClick={()=>setShowMenu(!showmenu)} className='close'><RiCloseLine /></button>
