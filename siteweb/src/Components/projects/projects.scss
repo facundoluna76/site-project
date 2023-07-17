@@ -1,0 +1,25 @@
+.projects {
+    .container {
+        padding: 0 40px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    &__cont {
+        &__item {
+            cursor: pointer;
+            display: block;
+            overflow: hidden;
+
+            &__image {
+                display: block;
+                width: 100%;
+                
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

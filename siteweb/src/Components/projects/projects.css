@@ -1,0 +1,17 @@
+.projects .container {
+  padding: 0 40px;
+  width: 100%;
+  max-width: 100%;
+}
+.projects__cont__item {
+  cursor: pointer;
+  display: block;
+  overflow: hidden;
+}
+.projects__cont__item__image {
+  display: block;
+  width: 100%;
+}
+.projects__cont__item__image img {
+  width: 100%;
+}

@@ -8,11 +8,11 @@ const Projects = () => {
     <section className="projects">
         <div className="container">
             <div className="projects__cont">
-                <div className="projects__cont__item">
+                <a className="projects__cont__item">
                     <div className="projects__cont__item__image">
                         <img src={images.wynwood} alt="" />
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </section>
